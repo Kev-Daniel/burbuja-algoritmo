@@ -30,7 +30,7 @@ void ingresar(int a[], int n)
     int i;
     for (i = 0; i < n; i++)
     {
-        cout << "Ingrese el elemeneto al arreglo:" << endl;
+        cout << "Ingrese el elemeneto al arreglo:" <<i++ <<endl;
         cin >> a[i];
     }
 
